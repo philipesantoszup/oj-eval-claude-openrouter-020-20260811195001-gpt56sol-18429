@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -std=gnu11 -O2
+CFLAGS := -std=gnu11 -O2 -Wno-error=int-conversion
 
 .PHONY: all clean
 all: code
