@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -std=gnu11 -O2 -Wall -Wextra
+CFLAGS := -std=gnu11 -O2
 
 .PHONY: all clean
 all: code
